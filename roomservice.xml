@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Trees -->
+  <project path="device/samsung/hero-common" name="DeadlyMelqn/android_device_samsung_hero-common" remote="github" revision="yuv" />
+  <project path="device/samsung/herolte" name="8890dev/android_device_samsung_herolte" remote="github" revision="nougat-mr2" />
+  <project path="device/samsung/hero2lte" name="8890dev/android_device_samsung_hero2lte" remote="github" revision="nougat-mr2" />
+
+  <!-- Kernel -->
+  <project path="kernel/samsung/universal8890" name="aoscp-hero/android_kernel_samsung_universal8890" remote="github" revision="nougat-mr2" />
+
+  <!-- Vendor -->
+  <project path="vendor/samsung/hero-common" name="DeadlyMelqn/android_vendor_samsung_hero-common" remote="github" revision="yuv" />
+
+  <!-- Hardware -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="LineageOS/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos8890" name="LineageOS/android_hardware_samsung_slsi-cm_exynos8890" remote="github" revision="cm-14.1" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-7.1.1-2017.08-x86_64_aarch64-linux-gnu" name="aoscp-hero/gcc-linaro-7.1.1-2017.08-x86_64_aarch64-linux-gnu" remote="github" revision="master" clone-depth="1" />
+
+</manifest>
